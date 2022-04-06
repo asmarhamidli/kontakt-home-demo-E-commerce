@@ -11,6 +11,14 @@
   --font-family: 'Poppins', sans-serif;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
 /*!Header*/
 
 header {
@@ -441,4 +449,235 @@ text-decoration: underline;
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+/*!SellLiders*/
+
+.sellLiders{
+    padding: 0 39px 90px;
+}
+
+.sec2Header{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.sellNav{
+    margin-top: 33px;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 24px;
+    overflow: auto;
+}
+
+.sellNav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 17px 0 15px;
+    list-style: none;
+}
+
+.sellNav > ul > li > button{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #171717;
+    margin-right: 48px;
+    background: 0 0;
+    outline: none;
+    border: none;
+    position: relative;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: normal;
+}
+
+.sellNav > ul > li > button> span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #171717;
+    line-height: 17px;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card{
+    width: 300px;
+    min-height: 487px;
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 23px 20px 20px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cardImg{
+    height: 250px;
+    width: 250px;
+    padding: 50px 5px 5px;
+    text-align: center;
+}
+
+.card:hover .cardImg img{
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.cardImg >  img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.productName{
+    text-decoration: none;
+    line-height: 20px;
+    height: 40px; 
+    color: #000;
+    font-size: 14px;
+}
+
+.productName:hover{
+    text-decoration: underline;
+}
+
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: auto;
+
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.discountPrice{
+    font-weight: 500;
+    color: #171717;
+    font-size: 20px;
+    margin: 7px 0;
+}
+
+.creditInfo{
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 18px;
+    min-height: 23px;
+    height: 23px;
+    padding: 0 10px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.priceBlock{
+    width: 100%;
+}
+
+.card button{
+    padding: 15px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #d8d8d8;
+    outline: none;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card:hover button{
+    background-color: #da2c18;
+    color: #fff;
+}
+
+.card:hover button:hover{
+    background-color: #c71213;
+    color: #fff;
+}
+
+.moreButton{
+    margin: 46px auto ;
+    padding-bottom: 24px;
+    border: 0;
+    border-bottom: 1px solid #d8d8d8;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat,Arial,Helvetica,sans-serif;
+    line-height: 18px;
+    letter-spacing: -.28px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #171717;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    display: block;
+}
+
+.moreText{
+    font-size: 12px;
+    font-weight: 500;
+    color: #171717;
+    line-height: 17px;
+}
+
+.moreButton i{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/*!Discountnews*/
+
+.discountNewsButton{
+    height: 42px;
+    width: auto;
+    padding: 12px 21px;
+    border: 1px solid #dbdbdb;
+    border-radius: 21px;
+    background-color: #fff;
+    display: flex;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 14px;
+}
+
+.discountNewsButton i{
+    margin-left: 10px;
+}
+
+.partnorHeader{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 41px;
 }
