@@ -681,3 +681,42 @@ text-decoration: underline;
     border-bottom: 1px solid #d8d8d8;
     margin-bottom: 41px;
 }
+
+/*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/
+/*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/
+/*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/ /*!Partners*/
+
+.brandBox{
+    min-width: 312px!important;
+    width: 312px!important;
+    height: 164px!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    border: 1px solid #d8d8d8!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    margin-right: 10px!important;
+}
+
+.brandBox img{
+    height: auto;
+    width: 200px;
+}
+
+.videoContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    z-index: 1;
+    width: 100%;
+}
+
+.youtubePlayer{
+    height: 519px;
+    max-width: 66%;
+    border: 1px solid black;
+}
