@@ -1,0 +1,58 @@
+@media only screen and (max-width: 960px) {
+  .logo {
+    display: none;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
+  .userPage {
+    display: none;
+  }
+
+  .compIconWrapper {
+    display: none;
+  }
+
+  .cartIcon {
+    display: none;
+  }
+
+  .langName {
+    display: none;
+  }
+
+  .arrowIcon {
+    display: none;
+  }
+
+  .languageSwitcher {
+    margin-left: 0;
+    display: flex;
+    min-width: 70px;
+    justify-content: center;
+    border-right: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+  }
+
+  header {
+    padding: 0 16px;
+    height: 56px;
+    border-top: 1px solid #ebebeb;
+    justify-content: space-between;
+  }
+
+  .search-input{
+    max-width: 390px;
+    min-width: 80%;
+}
+
+.infoLinksBar{
+    display: none;
+}
+
+.desktopSidebar{
+    display: grid;
+}
+}
