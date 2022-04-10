@@ -55,4 +55,26 @@
 .desktopSidebar{
     display: grid;
 }
+
+.desktopSidebar{
+  display: none;
 }
+
+.swiper-slide > img{
+  width: 80%;
+}
+
+.card{
+    min-height: 337px;
+    height: 400px;
+    padding: 6px 13px 11px;
+    margin-right: 5px;
+    width: calc(50% - 5px);
+}
+
+.cardImg{
+  padding: 0;
+}
+
+}
+
